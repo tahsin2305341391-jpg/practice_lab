@@ -1,0 +1,46 @@
+body {
+    font-family: Times New Roman, serif;
+    background-color: white;
+}
+
+.page {
+    width: 900px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+.header {
+    background-color: #7fd8e6;   /* cyan like your picture */
+    text-align: center;
+    padding: 15px 0;
+}
+
+.header h2 {
+    margin: 5px;
+}
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    margin: 0 12px;
+    font-size: 14px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.content h3 {
+    color: #1f4e79;   /* dark blue text like picture */
+    font-weight: normal;
+}
+
+.content img {
+    width: 450px;
+    margin-top: 20px;
+}

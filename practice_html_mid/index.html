@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Styled Table</title>
+    <style>
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #e6f7ff;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th {
+            background-color: #0099cc;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            border: 1px solid gray;
+            padding: 5px;
+        }
+
+        input[type="number"] {
+            border: 1px solid green;
+            padding: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #0099cc;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #007399;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Student Information</h1>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter name"></td>
+            <td><input type="number" placeholder="Enter age"></td>
+            <td><input type="submit" value="Save"></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter name"></td>
+            <td><input type="number" placeholder="Enter age"></td>
+            <td><input type="submit" value="Save"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
